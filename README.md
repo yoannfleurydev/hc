@@ -8,6 +8,9 @@ Small ZSH script to highlight source code using `cat` and `highlight`.
 * `git clone git@github.com:yoannfleurydev/hc.git $HOME/.zsh/hc`
 * In your `.zshrc`, add `source $HOME/.zsh/hc/hc.zsh` 
 
-## Author
+## Contributors
 
-Yoann Fleury
+[yoannfleurydev](https://github.com/yoannfleurydev)
+[Ydrasil](https://github.com/Ydrasil)
+
+
