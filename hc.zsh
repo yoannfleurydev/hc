@@ -8,10 +8,6 @@ highlight_cat() {
     return -1
   fi
 
-  if [ $# -eq 0 ]; then
-    cat $@ | highlight --out-format=xterm256 --force --syntax=js
-  fi
-
   for FNAME in $@
   do
     filename=$(basename "$FNAME")
