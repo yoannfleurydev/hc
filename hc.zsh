@@ -12,6 +12,6 @@ highlight_cat() {
   do
     filename=$(basename "$FNAME")
     extension="${filename##*.}"
-    cat $FNAME | highlight --out-format=xterm256 --force --syntax=$extension
+    cat $FNAME | highlight --out-format=xterm256 --force --syntax=$extension 2&> /dev/null
   done
 }
